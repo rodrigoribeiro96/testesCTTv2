@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "value": {
+        "name": {
+          "defaultValue": "Office365AplicationID",
+          "isExpression": false
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "resource": "asset",
+      "value": {
+        "name": {
+          "defaultValue": "Office365Tenent",
+          "isExpression": false
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "resource": "queue",
+      "value": {
+        "folderPath": {
+          "defaultValue": "COE - RPA",
+          "isExpression": false,
+          "displayName": "Folder Path"
+        }
+      },
+      "metadata": {}
+    }
+  ]
+}
